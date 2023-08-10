@@ -1,0 +1,49 @@
+.navBar{
+    width: 95rem;
+    height: 8.313rem;
+    border-radius: 15px;
+    background-color: #56477B;
+    box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.2);
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .iconLink{
+    display: flex;
+    align-items: center;
+    height: auto;
+    margin-left: 1.5rem;
+  }
+  
+  .icon{
+    border-radius: 50px;
+    border: 5px solid rgba(60, 58, 65, 1);
+  }
+  
+  .webTitle{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 16rem;
+  }
+
+  .navLink{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 2rem;
+  }
