@@ -1,0 +1,57 @@
+.pCard{
+    height: 26.5rem;
+    width: 26.5rem;
+    border-radius: 25px;
+    background-color: rgba(60, 58, 65, 1);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.2);
+    margin: 2rem;
+}
+
+.projectName{
+    color: rgba(255, 255, 255, 1);
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 1rem;
+    margin-left: 1.5rem;
+}
+
+.topBar{
+    position: relative;
+    right: 5rem;
+    width: 27.1875rem;
+    height: 9.375rem;
+    border-radius: 25px;
+    background-color: rgba(86, 71, 123, 1);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+
+.bottomBar{
+    width: 22.6875rem;
+    height: 9.375rem;
+    border-radius: 25px;
+    background-color: rgba(252, 252, 253, 1);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+
+.cardText{
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+    padding: 1rem;
+    padding-left: 0rem;
+    }
+
+.arrow{
+    margin: 1rem;
+    margin-left: 6rem;
+    margin-right: 0.5rem;
+}

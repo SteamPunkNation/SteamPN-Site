@@ -10,6 +10,7 @@ export default function Home() {
       <div className={styles.previewProjects}>
         <p id={styles.welcomeText}>Welcome! Here is my archive of projects, public files, and miscellaneous links.</p>
         <PreviewProjectCard/>
+        <PreviewProjectCard/>
       </div>
       <div className={styles.previewDownloads}>
 

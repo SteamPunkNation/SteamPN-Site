@@ -22,8 +22,6 @@
   
   .webTitle{
     color: rgba(255, 255, 255, 1);
-    font-family: 'IBM Plex Mono';
-    font-style: normal;
     font-size: 24px;
     font-weight: 600;
     line-height: 1.2;
@@ -37,8 +35,6 @@
 
   .navLink{
     color: rgba(255, 255, 255, 1);
-    font-family: 'IBM Plex Mono';
-    font-style: normal;
     font-size: 24px;
     font-weight: 600;
     line-height: 1.2;
