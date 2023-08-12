@@ -1,34 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SteamPN Site
 
-## Getting Started
+## Introduction
+This project is my personal website that is being developed using Next.js for back & frontend and PenPot (Figma alternative) for the mock up design.
 
-First, run the development server:
+## Website Design
+[Penpot design mockup](https://design.penpot.app/#/view/bea72f69-717e-81b4-8002-f147ee656bc8?page-id=bea72f69-717e-81b4-8002-f147ee656bc9&section=interactions&index=0&share-id=bea72f69-717e-81b4-8002-f1e1a00d399f)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Homepage
+![Homepage](https://github.com/SteamPunkNation/SteamPN-Site/blob/main/Home.svg)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Projects
+![Homepage](https://github.com/SteamPunkNation/SteamPN-Site/blob/main/Projects.svg)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Downloads
+![Homepage](https://github.com/SteamPunkNation/SteamPN-Site/blob/main/Downloads.svg)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Links
+![Homepage](https://github.com/SteamPunkNation/SteamPN-Site/blob/main/Links.svg)
