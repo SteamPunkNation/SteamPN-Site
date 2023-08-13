@@ -11,12 +11,12 @@ export default function NavigationBar() {
     return (
         <nav className={styles.navBar}>
             <Link href={`/`} className={styles.iconLink}>
-                <Image src={'/icon.png'} alt={''} width='95' height='95' className={styles.icon}/>
+                <Image src={'/images/icon.png'} alt={''} width='95' height='95' className={styles.icon}/>
             </Link>
             <p className={styles.webTitle}>SteamPN</p>
-                {navButtons.map(({name, page}) => (
-                    <Link href={`/${page}`} className={styles.navLink}>{name}</Link>
-                ))}
+            {navButtons.map(({name, page}) => (
+                <Link href={`/${page}`} className={styles.navLink}>{name}</Link>
+            ))}
         </nav>
     );
 }
