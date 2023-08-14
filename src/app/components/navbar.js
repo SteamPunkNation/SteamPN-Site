@@ -15,7 +15,7 @@ export default function NavigationBar() {
             </Link>
             <p className={styles.webTitle}>SteamPN</p>
             {navButtons.map(({name, page}) => (
-                <Link href={`/${page}`} className={styles.navLink}>{name}</Link>
+                <Link href={`/${page}`} key={name} className={styles.navLink}>{name}</Link>
             ))}
         </nav>
     );

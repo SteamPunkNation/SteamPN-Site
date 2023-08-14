@@ -28,3 +28,36 @@
   display: flex;
   width: 95rem;
 }
+
+.video{
+  display: flex;
+  width: 95rem;
+}
+
+.video iframe{
+  border: 5px solid rgba(252, 252, 253, 1);
+  margin: 1rem;
+}
+
+.video h1{
+  margin: 1rem;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+  width: 21.625rem;
+  height: 3.8125rem;
+}
+
+.video p{
+  margin: 1rem;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+  max-width: 21.625rem;
+}
