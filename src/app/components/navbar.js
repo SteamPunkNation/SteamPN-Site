@@ -10,12 +10,12 @@ const navButtons = navButtonNames.map((btn, index) => ({name: btn, page: pageNam
 export default function NavigationBar() {
     return (
         <nav className={styles.navBar}>
-            <Link href={`/`} className={styles.iconLink}>
+            <Link href={`/`} className={styles.iconLink} title='Home'>
                 <Image src={'/images/icon.png'} alt={''} width='95' height='95' className={styles.icon}/>
             </Link>
             <p className={styles.webTitle}>SteamPN</p>
             {navButtons.map(({name, page}) => (
-                <Link href={`/${page}`} key={name} className={styles.navLink}>{name}</Link>
+                <Link href={`/${page}`} key={name} title={name} className={styles.navLink}>{name}</Link>
             ))}
         </nav>
     );

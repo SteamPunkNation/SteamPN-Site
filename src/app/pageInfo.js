@@ -39,6 +39,33 @@ export const videoInfo = [
     {
         title: 'Recent Video',
         videoID: 'WO1fuVHWtqc',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
+        description: 'Battle Owls Final Demo. The video shows some interaction with the user interface showing what actions happen when some of the buttons and checkboxes are clicked. The player goes into the singleplayer mode showing the gameplay loop of collecting worms and avoiding obstacles. The game continues until the latter happens then a game over screen apears prompting to restart or go back to the main menu.'
+    }
+];
+
+export const socialsInfo = [
+    {
+        name: 'LinkedIn',
+        text: '/in/andrewdonate',
+        image: '/images/linkedin.png',
+        link: 'https://www.linkedin.com/in/andrewdonate/'
+    },
+    {
+        name: 'Github',
+        text: '/SteamPunkNation',
+        image: '/images/github.png',
+        link: 'https://github.com/SteamPunkNation'
+    },
+    {
+        name: 'Resume preview',
+        text: 'Resume preview',
+        image: '/images/resumeIcon.png',
+        link: '/uploads/shortresume.pdf'
+    }
+];
+
+export const messageOfTheDay = [
+    {
+        message: "Insert message of the day here."
     }
 ];

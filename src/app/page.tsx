@@ -3,9 +3,11 @@ import styles from './page.module.css'
 import NavigationBar from './components/NavBar';
 import PreviewProjectCard from './components/PreviewProjects';
 import PreviewDownloadCard from './components/PreviewDownloads';
-import {previewProjectInfo, previewDownloadInfo, videoInfo} from './pageInfo';
+import SocialCard from './components/Socials';
+import {previewProjectInfo, previewDownloadInfo, videoInfo, socialsInfo, messageOfTheDay} from './pageInfo';
 
 const youtubeEmbed = "https://www.youtube.com/embed/";
+const motdSuffix = " © Andrew Donate";
 
 export default function Home() {
   return (
@@ -35,9 +37,17 @@ export default function Home() {
       </div>
       {/* Social Links/Buttons */}
       <div className={styles.socials}>
-
+        {socialsInfo.map(info => (
+          <SocialCard key={info.text} name={info.name} text={info.text} image={info.image} link={info.link}/>
+        ))}
       </div>
       {/* Quote of the day */}
+      <p className={styles.motd}>
+          {messageOfTheDay[0].message + motdSuffix}
+      </p>
+
+      {/* Credits/Copright */}
+      <a href="https://www.flaticon.com/free-icons/cv" title="Resume icon" className={styles.credits}>Resume icon created by spaceman.design - Flaticon</a>
     </main>
   )
 }

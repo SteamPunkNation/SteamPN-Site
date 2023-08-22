@@ -47,4 +47,11 @@
     text-decoration: none;
     text-transform: capitalize;
     margin: 2rem;
+    transition: color 0.2s ease-in-out;
+  }
+
+  .navLink:hover{
+    color: rgba(0,0,0,1);
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
   }
