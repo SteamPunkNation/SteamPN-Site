@@ -3,6 +3,14 @@
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
+  width: 95%;
+  justify-content: center;
+  margin: auto;
+}
+
+.navBar{
+  display: flex;
+  justify-content: center;
   width: 100%;
 }
 
@@ -22,14 +30,14 @@
 
 .previewProjects{
   display: flex;
-  width: 95rem;
   justify-content: center;
+  width: 100%;
 }
 
 .previewDownloads{
   display: flex;
-  width: 95rem;
-  justify-content: center;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 .video{

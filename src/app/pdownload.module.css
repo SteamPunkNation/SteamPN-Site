@@ -4,7 +4,7 @@
     border-radius: 25px;
     background-color: rgba(60, 58, 65, 1);
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.2);
-    margin: 2rem;
+    margin: 1rem;
     position: relative;
     transition: box-shadow 0.2s ease-in-out;
     display: flex;

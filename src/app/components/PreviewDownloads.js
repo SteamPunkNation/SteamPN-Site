@@ -11,7 +11,7 @@ const PreviewDownloadCard = ({title, description, image, link, downloadLink}) =>
             <Link href={link} className={styles.imageLink} title={title}>
                 <Image className={styles.image} src={image} alt={''} width='250' height='250'/>
             </Link>
-            <Link className={styles.downloadButton} href={downloadLink}>Download</Link>
+            <Link className={styles.downloadButton} href={downloadLink} prefetch={false}>Download</Link>
         </div>
     );
 }

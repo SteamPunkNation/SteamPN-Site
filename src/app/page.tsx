@@ -13,7 +13,9 @@ export default function Home() {
   return (
     <main className={styles.main}>
       {/* NavBar */}
-      <NavigationBar/>
+      <div className={styles.navBar}>
+        <NavigationBar/>
+      </div>
       {/* Project preview */}
       <div className={styles.previewProjects}>
         <p id={styles.welcomeText}>Welcome! Here is my archive of projects, public files, and miscellaneous links.</p>
