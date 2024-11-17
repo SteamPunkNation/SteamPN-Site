@@ -1,9 +1,10 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import NavigationBar from './components/NavBar';
-import PreviewProjectCard from './components/PreviewProjects';
-import PreviewDownloadCard from './components/PreviewDownloads';
-import SocialCard from './components/Socials';
+import NavigationBar from './components/navbar/navbar';
+import PreviewProjectCard from './components/previewProjects/previewprojects';
+import PreviewDownloadCard from './components/previewDownloads/PreviewDownloads';
+import SocialCard from './components/socials/Socials';
+import './api/downloadFile';
 import {previewProjectInfo, previewDownloadInfo, videoInfo, socialsInfo, messageOfTheDay} from './pageInfo';
 
 const youtubeEmbed = "https://www.youtube.com/embed/";

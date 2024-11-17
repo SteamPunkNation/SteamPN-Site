@@ -17,21 +17,21 @@ export const previewDownloadInfo = [
         description: 'This modpack was supposed to last only two weeks but began to thrive long past it\'s original end date.',
         image: '/images/twoweekcraft.png',
         link: '/downloads',
-        downloadLink: '/uploads/twoweekcraft2023.zip'
+        downloadLink: 'twoweekcraft2023.zip'
     },
     {
         title: 'Create A & B',
         description: 'This modpack allows players to experiment with new technology and creativity in their gameplay.',
         image: '/images/createAboveAndBeyond.png',
         link: '/downloads',
-        downloadLink: '/uploads/createaboveandbeyond2023.zip'
+        downloadLink: 'createaboveandbeyond2023.zip'
     },
     {
         title: 'Sevtech: Ages',
         description: 'This modpack focuses on the progression of the player through ages of technological advancement.',
         image: '/images/sevTechAges.png',
         link: '/downloads',
-        downloadLink: '/uploads/sevtech2022.zip'
+        downloadLink: 'sevtech2022.zip'
     }
 ];
 
